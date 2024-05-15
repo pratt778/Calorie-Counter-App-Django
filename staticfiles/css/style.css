@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+       #head{
+        margin-block: 1rem;
+        text-align: center;
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+       .info-cont{
+        box-shadow: 0px 5px 16px 0px ;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 840px;
+       }
+       .leftinfo{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+       }
+       #serv{
+        background-color: black;
+        color: #ffffff;
+       }
+       .list{
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+       }
+       .item{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+       }
+       .rightinfo{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       }
+       .burn-list{
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+       }
+       .items{
+        display: flex;
+       }
+       .items div{
+        display: flex;
+        flex-direction: column;
+       }
+       .title{
+        color: green;
+       }
+       h4{
+        font-style: italic;
+       }
+       #btn{
+        width: max-content;
+       }
+       #main-head{
+        text-align: center;
+        margin-block: 1rem;
+       }
+       #nores{
+       text-align: center;
+       margin-block: 1rem;
+       }
+       #too{
+              text-align: center;
+              width: max-content;
+       }
+       #tooo{
+              text-align: center;
+              width: max-content;
+       }
+       .mybar{
+              margin-top: 3rem;
+              width: 90% !important;
+              height: max-content;
+       }
